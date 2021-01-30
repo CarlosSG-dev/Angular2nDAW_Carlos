@@ -8,6 +8,7 @@
     "strict": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
+    "strictPropertyInitialization": false, //PROPIETAT CAMBIADA PER MI PER A NO INICIALITZAR CADA COMPONENT DE MANERA ESTRICTA
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,

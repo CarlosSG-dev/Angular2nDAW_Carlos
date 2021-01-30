@@ -1,0 +1,14 @@
+<li class="list-group-item list-group-item d-flex justify-content-between align-items-center">
+    <div class="" style="max-width: 100px;">
+       <img class="img-fluid rounded" [src]="moneda.photo"> 
+    </div>
+    <div>
+        <div>
+            <p>ID: {{moneda.id}}</p>
+            <p>Precio: {{moneda.price}}</p> 
+            <p>Nombre: {{moneda.name}}</p>
+            <p>Cantidad que tiene {{moneda.quantity}}</p>
+        </div>
+    </div>
+    <a class="btn btn-dark" [routerLink]="['/moneda', moneda.id]">Detalls</a>
+</li>
