@@ -1,0 +1,24 @@
+{"monedes" : [
+    {
+      "id": "BTC",
+      "price": "33000",
+      "name": "Bitcoin",
+      "photo": "/assets/img/Bitcoin-Logo.png",
+      "quantity": "0.001"
+    },
+    {
+      "id": "ETH",
+      "price": "1300",
+      "name": "Ethereum",
+      "photo": "/assets/img/eth.png",
+      "quantity":"0.2"
+    },
+    {
+      "id": "DOT",
+      "price": "18",
+      "name": "Polkadot",
+      "photo": "/assets/img/dot.png",
+      "quantity":"10"
+    }
+  ]
+}

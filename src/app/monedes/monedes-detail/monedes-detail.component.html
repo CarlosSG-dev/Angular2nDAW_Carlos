@@ -1,0 +1,21 @@
+<div class="row">
+    <div class="col-3">
+        <div class="card h-100">
+            <img [src]="moneda.photo" class="card-img-top">
+            <div class="card-body">
+                <h3 class="card-title">{{moneda.id}}</h3>
+                <p class="card-text">{{moneda.price | toEur}}$</p>
+                <p class="card-text">{{moneda.quantity}}</p>
+                <a [routerLink]="['/monedes']" class="btn btn-dark">Llista de monedes</a>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="card h-100">
+            <div class="card-body">
+
+            </div>
+        </div>
+    </div>
+</div>
