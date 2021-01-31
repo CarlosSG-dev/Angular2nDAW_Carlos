@@ -13,6 +13,7 @@ import { MonedesDetailComponent } from './monedes/monedes-detail/monedes-detail.
 import { ToEurPipe } from './monedes/to-eur.pipe';
 import { FilterMonedesPipe } from './monedes/filter-monedes.pipe';
 import { FormsModule } from '@angular/forms';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     MonedesDetailComponent,
     ToEurPipe,
-    FilterMonedesPipe
+    FilterMonedesPipe,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
